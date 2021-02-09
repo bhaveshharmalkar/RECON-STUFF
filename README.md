@@ -9,6 +9,8 @@ Footprinting, Scanning, and other bug bounty resources
 5. chmod +x RECON-STUFF.sh
 7. ./RECON-STUFF.sh
 8. make sure 2,3,4 tools are downloads/install in root folder.
+9. Also move 2,3,4 there usr/local/bin folder for you can execute it from all the directory.
+
 
 
 Tools used:
