@@ -22,5 +22,9 @@ Tools used:
 8. nmap         [pre-installed in kalilinux, parrot and blackarch]
 9. dirb         [pre-installed in kalilinux, parrot and blackarch]
 
+These script is very friendly to used and also user customize it's as their requirement.
+The motive of these tools to give bug-bounty, penetration testing resources like writeups,blogs,github repo.,books and some kind of open resources.
+
+
 
 
