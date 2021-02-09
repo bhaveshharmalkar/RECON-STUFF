@@ -3,7 +3,7 @@ Footprinting, Scanning, and other bug bounty resources
 
 
 1. sudo apt-get update 
-2. Downnload the zip file 
+2. Downnload the zip file  or git clone 
 3. Extract it.
 4. Go to the extracted folder.
 5. chmod +x RECON-STUFF.sh
