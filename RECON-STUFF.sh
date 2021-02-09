@@ -795,12 +795,13 @@ do
 				echo $'\t'"---------------------------"
 				echo $'\t'"1. Bitten Tech"
 				echo $'\t'"2. Spin The Hack"
-				echo $'\t'"3. Tech Chip"
-				echo $'\t'"4. Technical navigator"
-				echo $'\t'"5. Geeky Hub"
-				echo $'\t'"6. Hackersploit"
-				echo $'\t'"7. Stok"
-				echo $'\t'"8. The Cyber Mentor "
+				echo $'\t'"3.The cyber Expert"
+				echo $'\t'"4. Tech Chip"
+				echo $'\t'"5. Technical navigator"
+				echo $'\t'"6. Geeky Hub"
+				echo $'\t'"7. Hackersploit"
+				echo $'\t'"8. Stok"
+				echo $'\t'"9. The Cyber Mentor "
 				echo $'\t'"---------------------------"
 				read -p "// Select channel: " HACK
 				if [ $HACK = 1 ];
@@ -811,20 +812,23 @@ do
 					firefox  https://www.youtube.com/spinthehack
 				elif [ $HACK = 3 ];
 				then
-					firefox  https://www.youtube.com/channel/UCYS9sTrPpcIVDxz2yVPbuLw
+					firefox  https://www.youtube.com/results?search_query=the+cyber+expert
 				elif [ $HACK = 4 ];
 				then
-					firefox  https://www.youtube.com/channel/UClPH8tL-fWX1rqTTegkTNZw
+					firefox  https://www.youtube.com/channel/UCYS9sTrPpcIVDxz2yVPbuLw
 				elif [ $HACK = 5 ];
 				then
-					firefox  https://www.youtube.com/geekyhub
+					firefox  https://www.youtube.com/channel/UClPH8tL-fWX1rqTTegkTNZw
 				elif [ $HACK = 6 ];
 				then
-					firefox  https://www.youtube.com/hackersploit
+					firefox  https://www.youtube.com/geekyhub
 				elif [ $HACK = 7 ];
 				then
-					firefox  https://www.youtube.com/channel/UCQN2DsjnYH60SFBIA6IkNwg
+					firefox  https://www.youtube.com/hackersploit
 				elif [ $HACK = 8 ];
+				then
+					firefox  https://www.youtube.com/channel/UCQN2DsjnYH60SFBIA6IkNwg
+				elif [ $HACK = 9 ];
 				then
 					firefox  https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw  
 				else
