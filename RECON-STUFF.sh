@@ -795,7 +795,7 @@ do
 				echo $'\t'"---------------------------"
 				echo $'\t'"1. Bitten Tech"
 				echo $'\t'"2. Spin The Hack"
-				echo $'\t'"3.The cyber Expert"
+				echo $'\t'"3. The cyber Expert"
 				echo $'\t'"4. Tech Chip"
 				echo $'\t'"5. Technical navigator"
 				echo $'\t'"6. Geeky Hub"
