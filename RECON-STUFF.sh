@@ -574,8 +574,7 @@ do
 				cd ..	
 			elif [ $BYPASS = 10 ];
 			then
-				echo "__________Thanks for using ALL-IN-ONE____________"
-				echo "!!!! Please report any incorrect output at bhaveshharmalkar28@gmail.com !!!!"
+				echo "__________Thanks for using RECON-STUFF ____________"
 				break
 			else
 				echo "Input Error....."	
@@ -893,7 +892,7 @@ do
 	elif [ $CHOICE = 13 ];
 	then
 		echo $'\n'
-		echo $'\t' "    _______ THANKS FOR USING ALL-IN-ONE __________ "
+		echo $'\t' "    _______ THANKS FOR USING RECON-STUFF __________ "
 		
 		break
 
