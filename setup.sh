@@ -19,7 +19,7 @@ mv httprobe /root
 mv massdns /root
 cd Breacher
 chmod +x breacher.py
-cd..
+cd ..
 mv Breacher /root
 
 
