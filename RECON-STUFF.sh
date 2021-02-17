@@ -592,23 +592,13 @@ do
 		read -p "If you have a patience then y else n (y/n): " TIME
 		if [ $TIME = Y ] || [ $TIME = y ];
 		then
-			if [ $h = 1 ];
-			then
-				mkdir hidden
-		
-			fi
-			((h--))
-			cd hidden
-			echo "You are a great person...."
-			echo "USAGE: { http://example.com   or  https://example.com }  "
-			echo $'\n'
-			read -p "[#] Enter domain: " URL 
-			echo "[#] Target $URL"
-			dirb $URL | tee $URL.txt
-			echo $'\n'
-			echo "***** Output stored in /root/Desktop/$NAME/hidden/$URL.txt *****"
-			
+			cd /root
+			cd Breacher 
+			read -p "Enter domain: " URL
+			python3 breacher.py -u $URL
 			cd ..
+			cd /root/Desktop/$NAME
+			
 		elif [ $TIME = N ] || [ $TIME = n ];
 		then
 			echo "ohh! It's strange..."
